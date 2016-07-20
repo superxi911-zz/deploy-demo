@@ -3,9 +3,9 @@
 build:
   dockerfile_name: Dockerfile
 deploy:
-  - application: deploy-test
-    cluster: 9f261723-0c01-451e-a989-8c53513baed5
-    partition: tong-test
+  - application: deploy
+    cluster: 969d52d9-a3f8-46a9-989e-183bf05d127a
+    partition: deploy
     containers:
     - con-1
 
