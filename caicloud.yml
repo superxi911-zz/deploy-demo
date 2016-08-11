@@ -1,5 +1,8 @@
 ---
-
+pre_build:
+  image: busybox
+  commands:
+    - echo "pre build"
 build:
   dockerfile_name: Dockerfile
 deploy:
