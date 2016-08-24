@@ -2,7 +2,7 @@
 pre_build:
   image: busybox
   commands:
-    - echo "pre build"
+    - echo "pre build 824"
 build:
   dockerfile_name: Dockerfile
 deploy:
