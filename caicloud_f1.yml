@@ -1,0 +1,7 @@
+---
+pre_build:
+  image: busybox
+  commands:
+    - echo "pre build f1"
+build:
+  dockerfile_name: Dockerfile
