@@ -1,6 +1,6 @@
 ---
 pre_build:
-  image: busybox
+  image: index.caicloud.io/caicloud/busybox
   commands:
     - echo "pre build 831"
 build:
